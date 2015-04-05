@@ -15,23 +15,23 @@ E você que teve um problema semelhante e teve uma outra forma de solução, com
 Template
 --------
 
-**GitHub ID:** desenvolvedor_j
-**Problema:** Tive um problema assim, assim, assado. A repinboca da parafuseta não funcionava, mesmo depois de trocar função foo() por bar().
-**Solução:** Consegui resolver trocando pela função zoo() e passando um ponteiro de inteiro como argumento
+**GitHub ID:** desenvolvedor_j <br/>
+**Problema:** Tive um problema assim, assim, assado. A repinboca da parafuseta não funcionava, mesmo depois de trocar função foo() por bar(). <br/>
+**Solução:** Consegui resolver trocando pela função zoo() e passando um ponteiro de inteiro como argumento <br/>
 ```
 int *x;
 int y;
 
 y = zoo(x);
 ```
-**Fonte:** http://www.siteofsolutions.com/tips/problem_with_bar_function.html
+**Fonte:** http://www.siteofsolutions.com/tips/problem_with_bar_function.html <br/>
 
 Caso outra pessoa conheça uma outra maneira de solucionar o mesmo problema, ou algum comentário de como poderia melhorar ou mesmo dizer que não funciona
 mais na versão XYZ, faça isso logo abaixo.
 
-**GitHub ID:** desenvolvedor_x
+**GitHub ID:** desenvolvedor_x <br/>
 **Sugestão/Comentário:** Esta função foi descontinuada da libfoobarzoo a partir da versão 3.2.48. Neste caso pode usar a sua versão segura. Basta apenas adicionar
-s no inicio da função
+s no inicio da função <br/>
 ```
 int *x;
 int y;
@@ -48,29 +48,29 @@ Comitando sua dica ou sugestão
 ------------------------------
 Para que possamos navegar pelas suas dicas nos commits, adote um padrão de mensagens de commits:
 
-Github id - DICA - Mensagem resumida
+Github id - DICA - Mensagem resumida <br/>
 
-(opcional) Descreva de uma maneira bem objetiva sua dica
+(opcional) Descreva de uma maneira bem objetiva sua dica <br/>
 
 No caso de sugestão/comentário:
 
-Github id - COM/SUG - Mensagem da dica
+Github id - COM/SUG - Mensagem da dica <br/>
 
-(opcional) Descreva de uma maneira mais objetiva ainda a sua sugestão
+(opcional) Descreva de uma maneira mais objetiva ainda a sua sugestão <br/>
 
 Go Go Go
 ========
 
-**GitHub ID:** dropped
-**Problema:** Já enfrentei problemas quando estava gerando um USB Bootável com algumas distribuições quando usava o dd da seguinte maneira:
+**GitHub ID:** dropped <br/>
+**Problema:** Já enfrentei problemas quando estava gerando um USB Bootável com algumas distribuições quando usava o dd da seguinte maneira: <br/>
 ```
 # dd if=distribuicao_xyz.iso of=/dev/sdb bs=8M
 ```
-Não sei informar o motivo do problema, mas muitas vezes não bootava.
-**Solução:** Usar ddrescue
+Não sei informar o motivo do problema, mas muitas vezes não bootava.<br/>
+**Solução:** Usar ddrescue <br/>
 ```
 # ddrescue -d -D --force distribuicao_xyz.iso /dev/sdb
 ```
-Desde então não tive mais problemas desse tipo.
-**Fonte:** https://ubuntu-mate.org/utopic/
+Desde então não tive mais problemas desse tipo.<br/>
+**Fonte:** https://ubuntu-mate.org/utopic/ <br/>
 Outras referências: [GNU](https://www.gnu.org/software/ddrescue/) [ForensicsWiki](http://www.forensicswiki.org/wiki/Ddrescue)
